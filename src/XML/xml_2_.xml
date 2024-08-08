@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="mySuite">
+    <test name="myTest1">
+
+        <parameter name="name" value="Mark Christopher "></parameter>
+        <groups>
+            <run>
+                <exclude name="PatientManagement" />
+            </run>
+        </groups>
+        <classes>
+            <class name="Tests.Tests" />
+        </classes>
+
+    </test>
+</suite>
+
+        <!-- ????????? include calismiyor-->
